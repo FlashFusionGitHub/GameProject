@@ -20,4 +20,11 @@ protected:
 
 	aie::Renderer2D*	m_2dRenderer;
 	aie::Font*			m_font;
+
+	Vector2      m_PlayerCircle;
+	int playerSpeed;
+	int playerSize;
+	int defaultSpeed;
+	int BOOST;
+	bool drawBOOST;
 };
