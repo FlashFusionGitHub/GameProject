@@ -24,7 +24,7 @@ bool GameProjectApp::startup() {
 	//player variables
 	playerSize = 30;
 	defaultSpeed = 300;
-	BOOST = 600;
+	BOOST = 800;
 
 	return true;
 }
@@ -83,15 +83,17 @@ void GameProjectApp::draw() {
 	// begin drawing sprites
 	m_2dRenderer->begin();
 
+	m_2dRenderer->setRenderColour(1, 1, 0);
+
 	if (drawBOOST == true)
 	{
 		m_2dRenderer->setRenderColour(0, 1, 1, 1);
-		m_2dRenderer->drawText(m_font, "BOOST!!", getWindowWidth() / 2, getWindowHeight() / 2);
+		m_2dRenderer->drawText(m_font, "BOOST", m_PlayerCircle[0] + 30, m_PlayerCircle[1] + 30);
+		m_2dRenderer->setRenderColour(1, 0, 0);
 	}
 
 	// draw your stuff here!
 	//draw the player and player colour
-	m_2dRenderer->setRenderColour(1, 1, 0);
 	m_2dRenderer->drawCircle(m_PlayerCircle[0], m_PlayerCircle[1], playerSize);
 
 	m_2dRenderer->setRenderColour(1, 1, 1);
