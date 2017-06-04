@@ -31,6 +31,9 @@
     <Filter Include="Header Files\GameObjects">
       <UniqueIdentifier>{b9564b73-21b1-4978-9526-6b0672021e03}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\Conditions">
+      <UniqueIdentifier>{e2d1c447-c210-404b-a727-e049439965b6}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="GameProjectApp.cpp">
@@ -106,6 +109,9 @@
     </ClInclude>
     <ClInclude Include="myLinkedList.h">
       <Filter>Header Files\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="wasButtonPressed.h">
+      <Filter>Header Files\Conditions</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

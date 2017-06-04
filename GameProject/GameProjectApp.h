@@ -9,63 +9,6 @@
 #include "FiniteStateMachine.h"
 #include "AssertionLibrary.h"
 
-class myFirstState : public State
-{
-	void onEnter(SceneObject* object) 
-	{
-
-	}
-
-	void onExit(SceneObject* object) 
-	{
-
-	}
-
-	void onUpdate(SceneObject* object, float dt)
-	{
-
-	}
-};
-
-class mySecondState : public State
-{
-	void onEnter(SceneObject* object)
-	{
-
-	}
-
-	void onExit(SceneObject* object)
-	{
-
-	}
-
-	void onUpdate(SceneObject* object, float dt)
-	{
-
-	}
-};
-
-class myThirdState : public State
-{
-	void onEnter(SceneObject* object)
-	{
-
-	}
-
-	void onExit(SceneObject* object)
-	{
-
-	}
-	void onUpdate(SceneObject* object, float dt)
-	{
-
-	}
-};
-
-class isButtonPressed : public Condition
-{
-
-};
 
 class GameProjectApp : public aie::Application {
 public:
