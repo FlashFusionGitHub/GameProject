@@ -3,6 +3,69 @@
 #include "Application.h"
 #include "Renderer2D.h"
 #include "Vector2.h"
+#include "State.h"
+#include "Transition.h"
+#include "SceneObject.h"
+#include "FiniteStateMachine.h"
+#include "AssertionLibrary.h"
+
+class myFirstState : public State
+{
+	void onEnter(SceneObject* object) 
+	{
+
+	}
+
+	void onExit(SceneObject* object) 
+	{
+
+	}
+
+	void onUpdate(SceneObject* object, float dt)
+	{
+
+	}
+};
+
+class mySecondState : public State
+{
+	void onEnter(SceneObject* object)
+	{
+
+	}
+
+	void onExit(SceneObject* object)
+	{
+
+	}
+
+	void onUpdate(SceneObject* object, float dt)
+	{
+
+	}
+};
+
+class myThirdState : public State
+{
+	void onEnter(SceneObject* object)
+	{
+
+	}
+
+	void onExit(SceneObject* object)
+	{
+
+	}
+	void onUpdate(SceneObject* object, float dt)
+	{
+
+	}
+};
+
+class isButtonPressed : public Condition
+{
+
+};
 
 class GameProjectApp : public aie::Application {
 public:
@@ -22,6 +85,22 @@ protected:
 	aie::Font*			m_font;
 
 	Vector2      m_PlayerCircle;
+
+	//----FSM TEST------------------
+	
+	FiniteStateMachine finiteStateMachine;
+
+	State* state1;
+	State* state2;
+	State* state3;
+
+	Condition* m_condition;
+	//------------------------------
+
+
+	//--------assertion-----------
+	AssertionLibrary playerSizeArgument;
+	//----------------------------
 	int playerSpeed;
 	int playerSize;
 	int defaultSpeed;

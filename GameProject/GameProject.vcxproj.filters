@@ -13,8 +13,23 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="Header Files\MathsLibraryHeaderFiles">
+    <Filter Include="Header Files\Containers">
+      <UniqueIdentifier>{42553610-b163-43ba-a208-8ad4ee6d5773}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\MathsLib">
       <UniqueIdentifier>{29a1ffe6-f9c9-4dac-8516-ffc40b52090f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\FSM">
+      <UniqueIdentifier>{615ebb4f-e5cb-40ac-9264-3b686b2decc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ErrorHandling">
+      <UniqueIdentifier>{4eef2e5d-3cbb-471c-87cd-9e94932078d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\States">
+      <UniqueIdentifier>{16193808-af1b-4279-88d0-36763a332d70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameObjects">
+      <UniqueIdentifier>{b9564b73-21b1-4978-9526-6b0672021e03}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -30,25 +45,67 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Matrix2.h">
-      <Filter>Header Files\MathsLibraryHeaderFiles</Filter>
+      <Filter>Header Files\MathsLib</Filter>
     </ClInclude>
     <ClInclude Include="Matrix3.h">
-      <Filter>Header Files\MathsLibraryHeaderFiles</Filter>
+      <Filter>Header Files\MathsLib</Filter>
     </ClInclude>
     <ClInclude Include="Matrix4.h">
-      <Filter>Header Files\MathsLibraryHeaderFiles</Filter>
+      <Filter>Header Files\MathsLib</Filter>
     </ClInclude>
     <ClInclude Include="Vector2.h">
-      <Filter>Header Files\MathsLibraryHeaderFiles</Filter>
+      <Filter>Header Files\MathsLib</Filter>
     </ClInclude>
     <ClInclude Include="Vector3.h">
-      <Filter>Header Files\MathsLibraryHeaderFiles</Filter>
+      <Filter>Header Files\MathsLib</Filter>
     </ClInclude>
     <ClInclude Include="Vector4.h">
-      <Filter>Header Files\MathsLibraryHeaderFiles</Filter>
+      <Filter>Header Files\MathsLib</Filter>
     </ClInclude>
     <ClInclude Include="DllExport.h">
-      <Filter>Header Files\MathsLibraryHeaderFiles</Filter>
+      <Filter>Header Files\MathsLib</Filter>
+    </ClInclude>
+    <ClInclude Include="DynamicArray.h">
+      <Filter>Header Files\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>Header Files\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="LinkedList.h">
+      <Filter>Header Files\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="Transition.h">
+      <Filter>Header Files\FSM</Filter>
+    </ClInclude>
+    <ClInclude Include="State.h">
+      <Filter>Header Files\FSM</Filter>
+    </ClInclude>
+    <ClInclude Include="FiniteStateMachine.h">
+      <Filter>Header Files\FSM</Filter>
+    </ClInclude>
+    <ClInclude Include="AssertionLibrary.h">
+      <Filter>Header Files\ErrorHandling</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneObject.h">
+      <Filter>Header Files\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteObject.h">
+      <Filter>Header Files\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>Header Files\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="myFirstState.h">
+      <Filter>Header Files\States</Filter>
+    </ClInclude>
+    <ClInclude Include="mySecondState.h">
+      <Filter>Header Files\States</Filter>
+    </ClInclude>
+    <ClInclude Include="myThirdState.h">
+      <Filter>Header Files\States</Filter>
+    </ClInclude>
+    <ClInclude Include="myLinkedList.h">
+      <Filter>Header Files\Containers</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

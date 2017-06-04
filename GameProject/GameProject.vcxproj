@@ -94,11 +94,25 @@
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="AssertionLibrary.h" />
+    <ClInclude Include="Button.h" />
     <ClInclude Include="DllExport.h" />
+    <ClInclude Include="FiniteStateMachine.h" />
     <ClInclude Include="GameProjectApp.h" />
+    <ClInclude Include="LinkedList.h" />
+    <ClInclude Include="Map.h" />
     <ClInclude Include="Matrix2.h" />
     <ClInclude Include="Matrix3.h" />
     <ClInclude Include="Matrix4.h" />
+    <ClInclude Include="DynamicArray.h" />
+    <ClInclude Include="myFirstState.h" />
+    <ClInclude Include="myLinkedList.h" />
+    <ClInclude Include="mySecondState.h" />
+    <ClInclude Include="myThirdState.h" />
+    <ClInclude Include="SceneObject.h" />
+    <ClInclude Include="SpriteObject.h" />
+    <ClInclude Include="State.h" />
+    <ClInclude Include="Transition.h" />
     <ClInclude Include="Vector2.h" />
     <ClInclude Include="Vector3.h" />
     <ClInclude Include="Vector4.h" />

@@ -1,2 +1,19 @@
-﻿  GameProject.vcxproj -> C:\Users\Rowen\Desktop\GameProject\temp\GameProject\Debug\GameProject.exe
-  GameProject.vcxproj -> C:\Users\Rowen\Desktop\GameProject\temp\GameProject\Debug\GameProject.pdb (Full PDB)
+﻿  Vector.cpp
+c:\users\rowen\desktop\gameproject\gameproject\vector.cpp(5): error C2955: 'Vector': use of class template requires template argument list
+  c:\users\rowen\desktop\gameproject\gameproject\vector.h(4): note: see declaration of 'Vector'
+c:\users\rowen\desktop\gameproject\gameproject\vector.cpp(6): error C2509: '{ctor}': member function not declared in 'Vector'
+  c:\users\rowen\desktop\gameproject\gameproject\vector.h(4): note: see declaration of 'Vector'
+c:\users\rowen\desktop\gameproject\gameproject\vector.cpp(10): error C2955: 'Vector': use of class template requires template argument list
+  c:\users\rowen\desktop\gameproject\gameproject\vector.h(4): note: see declaration of 'Vector'
+c:\users\rowen\desktop\gameproject\gameproject\vector.cpp(11): error C2509: '{dtor}': member function not declared in 'Vector'
+  c:\users\rowen\desktop\gameproject\gameproject\vector.h(4): note: see declaration of 'Vector'
+  GameProjectApp.cpp
+c:\users\rowen\desktop\gameproject\gameproject\gameprojectapp.cpp(39): warning C4244: '=': conversion from 'unsigned int' to 'float', possible loss of data
+c:\users\rowen\desktop\gameproject\gameproject\gameprojectapp.cpp(40): warning C4244: '=': conversion from 'unsigned int' to 'float', possible loss of data
+c:\users\rowen\desktop\gameproject\gameproject\gameprojectapp.cpp(90): warning C4244: '=': conversion from 'unsigned int' to 'float', possible loss of data
+c:\users\rowen\desktop\gameproject\gameproject\gameprojectapp.cpp(92): warning C4244: '=': conversion from 'unsigned int' to 'float', possible loss of data
+c:\users\rowen\desktop\gameproject\gameproject\gameprojectapp.cpp(94): warning C4244: '=': conversion from 'unsigned int' to 'float', possible loss of data
+c:\users\rowen\desktop\gameproject\gameproject\gameprojectapp.cpp(96): warning C4244: '=': conversion from 'unsigned int' to 'float', possible loss of data
+  Generating Code...
+  Skipping... (no relevant changes detected)
+  main.cpp

@@ -3,9 +3,12 @@
 #include "Font.h"
 #include "Input.h"
 #include <iostream>
+#include "DynamicArray.h"
+#include "LinkedList.h"
+#include <ctime>
+#include <assert.h>
 
 GameProjectApp::GameProjectApp() {
-
 }
 
 GameProjectApp::~GameProjectApp() {
@@ -13,7 +16,8 @@ GameProjectApp::~GameProjectApp() {
 }
 
 bool GameProjectApp::startup() {
-	
+
+
 	m_2dRenderer = new aie::Renderer2D();
 	m_font = new aie::Font("./font/consolas.ttf", 32);
 
@@ -22,9 +26,12 @@ bool GameProjectApp::startup() {
 	m_PlayerCircle[1] = getWindowHeight() / 2;
 
 	//player variables
-	playerSize = 30;
+	playerSize = 20;
+
 	defaultSpeed = 300;
 	BOOST = 800;
+
+	//----------FSM----------
 
 	return true;
 }
@@ -39,6 +46,17 @@ void GameProjectApp::update(float deltaTime) {
 
 	// input example
 	aie::Input* input = aie::Input::getInstance();
+
+
+	//changing states
+	if (input->wasKeyPressed(aie::INPUT_KEY_RIGHT))
+	{
+
+	}
+	if (input->wasKeyPressed(aie::INPUT_KEY_LEFT))
+	{
+
+	}
 
 	//moving player
 	if (input->isKeyDown(aie::INPUT_KEY_W))
